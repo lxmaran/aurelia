@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7427855-8C60-4BEC-8A5A-70E8595F2573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3CC9868-9091-4DA7-AFA2-3C82A5995707}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AureliaTutorial", "src\AureliaTutorial\AureliaTutorial.xproj", "{0B67EBA5-EF2D-4E30-B9CF-4AE2AE88A5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AureliaTutorial.Api", "AureliaTutorial.Api\AureliaTutorial.Api.csproj", "{17E7B3FE-B2CC-4CCE-B211-3BE2394409AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B67EBA5-EF2D-4E30-B9CF-4AE2AE88A5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B67EBA5-EF2D-4E30-B9CF-4AE2AE88A5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B67EBA5-EF2D-4E30-B9CF-4AE2AE88A5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B67EBA5-EF2D-4E30-B9CF-4AE2AE88A5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E7B3FE-B2CC-4CCE-B211-3BE2394409AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E7B3FE-B2CC-4CCE-B211-3BE2394409AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E7B3FE-B2CC-4CCE-B211-3BE2394409AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E7B3FE-B2CC-4CCE-B211-3BE2394409AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B67EBA5-EF2D-4E30-B9CF-4AE2AE88A5AA} = {D7427855-8C60-4BEC-8A5A-70E8595F2573}
+		{17E7B3FE-B2CC-4CCE-B211-3BE2394409AD} = {D7427855-8C60-4BEC-8A5A-70E8595F2573}
+	EndGlobalSection
+EndGlobal

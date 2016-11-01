@@ -1,0 +1,10 @@
+﻿<template>
+    <div>
+        <ul class="list-group">
+            <li repeat.for="movie of movies" class="list-group-item list-group-item-success">
+                ${movie.id}
+                ${movie.name} <a route-href="route:details; params.bind:{id:movie.id}" class="btn btn-default">Details</a>
+            </li>
+        </ul>
+    </div>
+</template> 

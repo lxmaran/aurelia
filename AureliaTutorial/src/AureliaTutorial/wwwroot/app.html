@@ -1,0 +1,21 @@
+﻿<template>
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                Movies
+            </a>
+            <ul class="nav navbar-nav">
+                <!-- class="${row.isActive ? 'active' : ''}" will check if we are on a specific link from the router and it will set the class in the navbar to active -->
+                <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+                    <a href.bind="row.href">${row.title}</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" show.bind="router.isNavigating">
+        <i class="fa fa-spinner fa-spin"></i>
+    </div>
+    <router-view></router-view>
+    <compose view-model="currentDate"></compose>
+</template>
